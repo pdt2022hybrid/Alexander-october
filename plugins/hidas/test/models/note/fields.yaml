@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    title:
+        label: alexmadar
+        type: text
+    day: 
+        label: den2w
+        type: text
+    retweets:
+        label: retards
+        type: number

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Note
+
+# Model Form Field configuration
+form: $/hidas/test/models/note/fields.yaml
+
+# Model Class name
+modelClass: Hidas\Test\Models\Note
+
+# Default redirect location
+defaultRedirect: hidas/test/notes
+
+# Create page
+create:
+    title: Create Note
+    redirect: hidas/test/notes/update/:id
+    redirectClose: hidas/test/notes
+
+# Update page
+update:
+    title: Edit Note
+    redirect: hidas/test/notes
+    redirectClose: hidas/test/notes
+
+# Preview page
+preview:
+    title: Preview Note
